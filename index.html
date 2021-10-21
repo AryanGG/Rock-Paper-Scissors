@@ -7,8 +7,8 @@
     <link rel="manifest" href="icons/site.webmanifest">
     <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Rock, Paper &amp; Scissors">
-    <meta name="application-name" content="Rock, Paper &amp; Scissors">
+    <meta name="apple-mobile-web-app-title" content="Rock, Paper &amp; Scissor">
+    <meta name="application-name" content="Rock, Paper &amp; Scissor">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
@@ -17,9 +17,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
-    <title>Rock, Paper & Scissors</title>
+    <title>Rock, Paper & Scissor</title>
 </head>
 <body>
-    
+    <div class="header">
+        <h1>Rock, Paper & Scissor</h1>
+        <h2>(By Aryan)</h2>
+    </div>
+
+    <div class="main-container">
+        <div class="container-1">
+            <h3>Computer</h3>
+            <img src="images/rock.png" alt="Rock" class="choices">
+            <img src="images/paper.png" alt="Paper" class="choices">
+            <img src="images/scissor.png" alt="Scissor" class="choices">
+        </div>
+        <div class="container-2">
+            <div class="results-container">
+                <h3></h3>
+            <!--<img choice-1>
+                <h4></h4>
+                <h4><h4>
+                <img choice-2>
+            -->
+            <input type="image" src="images/replay.png" id="replay">
+            </div>
+        </div>
+        <div class="container-3">
+            <h3>You</h3>
+            <input type="image" src="images/rock.png" id="rock" alt="Rock" class="choices">
+            <input type="image" src="images/paper.png" id="papper" alt="Paper" class="choices">
+            <input type="image" src="images/scissor.png" id="scissor" alt="scissors" class="choices">
+        </div>
+    </div>
+
+    <div class="footer">
+        <input type="image" src="images/github.png" id="github" alt="github" class="footer-icon">
+        <a href="">Credits</a>
+        <input type="image" src="images/instagram.png" id="instagram" alt="instagram" class="footer-icon">
+    </div>
 </body>
 </html>
